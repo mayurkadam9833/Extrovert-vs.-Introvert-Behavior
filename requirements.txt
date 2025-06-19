@@ -1,0 +1,11 @@
+pandas 
+numpy
+matplotlib 
+seaborn 
+scikit-learn
+pyYMAL 
+ensure 
+python-box==6.0.2
+streamlit 
+
+-e .
