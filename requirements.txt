@@ -3,7 +3,7 @@ numpy
 matplotlib 
 seaborn 
 scikit-learn
-pyYMAL 
+pyYAML
 ensure 
 python-box==6.0.2
 streamlit 
