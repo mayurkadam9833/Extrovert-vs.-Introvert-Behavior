@@ -18,4 +18,4 @@ logging.basicConfig(
                 ]
 )
 
-logger=logging.getLogger("extrovert vs introvert logger")
+logger=logging.getLogger("Extrovert_vs_Introvert_Behavior_logger")

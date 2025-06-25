@@ -1,5 +1,5 @@
 import sys 
-from Extrovert_vs_Introvert_Behavior.logging import logger
+from src.Extrovert_vs_Introvert_Behavior.logging import logger
 
 class extrovert_introvert_exception(Exception):
     def __init__(self,error_message,error_details:sys): 
@@ -10,12 +10,12 @@ class extrovert_introvert_exception(Exception):
         self.file_name=exc_tb.tb_frame.f_code.co_filename
 
     def __str__(self):
-        return "error occured in python script name [{0}] line number [{1} error message [{2}]]".__format__(self.file_name,self.lineno,self.error_message)
+        return "error occured in python script name [{0}] line number [{1}] error message [{2}]]".__format__(self.file_name,self.lineno,self.error_message)
 
 
 if __name__ == "__main__": 
     try: 
-        logger.logging.INFO("ENTER THE TRY BLOCK")
+        logger.info("ENTER THE TRY BLOCK")
         a=1/0
         print("This will not printed",a)
     except Exception as e: 
