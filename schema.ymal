@@ -1,0 +1,12 @@
+COLUMNS:
+ Time_spent_Alone:float64 
+ Stage_fear:object 
+ Social_event_attendance:float64 
+ Going_outside:float64 
+ Drained_after_socializing:object 
+ Friends_circle_size:float64 
+ Post_frequency:float64
+ Personality:object
+
+ TARGET_COLUMN:
+ Personality:object
