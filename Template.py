@@ -4,7 +4,7 @@ from  pathlib import Path
 
 logging.basicConfig(level=logging.INFO,format="[%(asctime)s]:%(message)s:")
 
-project_name="Extrovert vs. Introvert Behavior" 
+project_name="Extrovert_vs_Introvert Behavior" 
 
 list_of_file=[
     f"src/{project_name}/__init__.py", 
